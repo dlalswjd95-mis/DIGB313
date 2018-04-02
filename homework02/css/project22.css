@@ -108,8 +108,11 @@ a:hover {
 
 #related_photos ~ a >img{
 	margin: 5% 0% 0% 15%;
+	border-radius: 50%;
 	
 }
+
+
 
 #review ~ div > p:first-child{
 	margin: 5% 0% 2% 15%;
