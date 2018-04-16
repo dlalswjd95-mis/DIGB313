@@ -1,0 +1,170 @@
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 80%;
+	
+}
+
+/*css*/
+
+fieldset{
+	width: 12px;
+	margin: 10px 150px;
+	padding: 10px 35px 10px 10px;
+	border: dashed 1.45px;
+	 
+	
+}
+
+legend{
+	text-align: center;
+	padding: 0 190px;
+}
+
+table{
+	border: none;
+	margin: 0;
+}
+
+td{
+	border: none;
+	padding: 0px 25px 0px 25px;
+}
+#titleInput{
+	width: 500px;
+	border : 1px dotted;
+}
+
+textarea {
+  font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+}
+
+#textArea{
+	width: 530px;
+	border: 1px dotted;
+	
+}
+
+td#top{
+	padding: 0 0 13px 25px;
+}
+
+td#top p:first-child{
+	margin-bottom: 10px;
+}
+
+td#cThree{
+	padding: 10px 25px; 
+}
+
+td#cThree p{
+	margin-bottom: 15px;
+}
+
+input[type=date]{
+	
+}
+
+td#cThree p:last-child{
+	margin-bottom: 40px;
+}
+
+td#cThree p:last-child input{
+	width: 250px;
+}
+
+td#copyright, td#creativeCommons{
+	padding: 0px  !important; 
+}
+
+.borderBox{
+	border: 1px dotted;
+	padding: 10px 0px 10px 10px;
+}
+
+#checkBox{
+	padding: 15px 25px; 
+}
+
+#rateColor p:first-child{
+	margin-bottom: 10px;
+}
+
+#foot{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+.foot{
+	margin-left: 5px;
+	width: 80px;
+	padding: 5px;
+	border-radius: 5px; 
+	cursor: pointer;
+	color:azure;
+	background-color: darkgray;
+	border: 1px solid black;
+}
+
+.foot:hover{
+	background-color: dimgray;
+}
+
+#taken p:first-child{
+	margin-bottom: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=date]::-webkit-inner-spin-button, input[type=time]::-webkit-inner-spin-button {
+    opacity: 1;
+		
+}
+
+input, select{
+	border: 1.2px dotted;
+}
+
+input[type=checkbox]{
+-webkit-appearance: none;
+	border: 1px dotted ;
+	padding: 4px;
+	display: inline-block;
+	position: relative;
+	top: 3px;
+}
+
+input[type=checkbox]:checked:after {
+	content: '\2714';
+	color: black;
+	position: absolute;
+	right: 0.25px;
+	bottom: 0px;
+	left: 0px;
+	
+}
+
+input[type=radio]{
+-webkit-appearance: none;
+	background-color: white;
+	border: 1px dotted ;
+	padding: 4px;
+	display:inline-block;
+	border-radius: 50px;
+	position: relative;
+}
+
+input[type=radio]:checked:after{
+	content: ' ';
+	width: 8px;
+	height: 8px;
+	border-radius: 100px;
+	position: absolute;
+	top: 0px;
+	background: black;
+	left: 0px;
+}
+
