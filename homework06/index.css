@@ -1,0 +1,40 @@
+
+
+#content{
+	margin: 5% 10%;
+}
+h1{
+	text-align: center;
+	max-width: 500px;
+
+}
+#myCanvas{
+	background-color:#eafaea;
+	border: solid  0.1px #0015;
+	width: 500px;
+	height: 400px;
+	position:relative;
+}
+.smallBox{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background-color:#85e085;
+	border: 1px solid black;
+	left: 0px;
+	top: 0px;
+	cursor:pointer;
+	z-index: 10;
+}
+.twoButton{
+	margin-top: 10px;
+	display:flex;
+	
+}
+
+.twoButton p{
+	margin-right: 10px;
+}
+.fourth{
+	margin: 30px;
+}
