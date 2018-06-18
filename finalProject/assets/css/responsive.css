@@ -1,0 +1,174 @@
+
+
+
+
+/*태블릿용css*/
+@media all and (min-width:768px){
+    /*기본 css*/
+    .divider{
+        margin-top:124px;
+    }
+    .m-divider{
+        margin-top:124px;
+    }
+    /*헤더 영역css*/
+    .header{
+        position:static;
+        padding: 28px 52px;
+    }
+    .header .navGroup{
+        display:block !important;
+        position: static;
+        float:right;
+        width: auto;
+        margin-top: 6px;
+        background:none;
+    }
+    .header .navGroup li{
+        float:left;
+        margin-left:21px;
+        border-bottom:0;
+    }
+    .header .navGroup li a{
+        color:#3f51b5;
+        padding-top: 10px;
+    }
+    .header .menu-toggle-btn{
+        display: none !important;
+    }
+    /*배경이미지영역*/
+
+    .home-section-background {
+        height: 500px;
+    }
+    .home-section-background h2 {
+        color: #f8f8f8;
+        font-size:45px;
+        letter-spacing: 5px;
+        margin: 0;
+    }
+
+    .home-section-background p {
+        color: #f8f8f8;
+        letter-spacing: 3px;
+        font-size: 20px;
+        margin-top: 200px;
+        margin-bottom: 10px;
+    }
+
+    .margin-top{
+        margin-top: 50px !important;
+    }
+    /*디스플레이영역css*/
+    .display-section{
+        margin-top: 95px;
+    }
+    /*프로모션영역css*/
+    .promotion-section{
+        margin-top:110px;
+    }
+
+    .promo-list{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: 190px 190px;
+    }
+    .promotion-section .promo-list li{
+        grid-column: span 6;
+        margin-top:0;
+    }
+    /*contactme영역 css*/
+
+    .grid-page-contact{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+    }
+    .contactIconGroup {
+        grid-column: span 4;
+    }
+    /*form영역css*/
+
+    .formObject{
+        margin-right: 20px;
+    }
+
+    .item1{grid-column: span 6;}
+    .item2{grid-column: span 6;}
+    .item3{grid-column: span 6;}
+    .item4{grid-column: span 6;}
+    .item5{grid-column: span 12;}
+    .item6{grid-column: span 12;}
+    .item7{}
+
+    #subject{
+        margin-right: 50px;
+    }
+    .form-2{
+        display:grid;
+        grid-template-columns: repeat(12,1fr);
+    }
+
+}
+
+/*PC용 css*/
+@media all and (min-width:1132px){
+    /*디스플레이영역css*/
+    section {
+        display: grid;
+    }
+    .grid-page{
+        display:grid;
+        grid-template-columns: repeat(12,1fr);
+    }
+    .display-section{
+        text-align:left;
+    }
+    .grid-page .sec-tit{
+        grid-column: span 3;
+    }
+    .grid-page .desc{
+        grid-column: span 9 ;
+        padding-left: 20px;
+        font-family: 'PT Serif';
+        font-size: 20px;
+        color: #616161;
+        line-height: 1.9;
+    }
+
+    .grid-page .desc:before{
+        display: block;
+        position: absolute;
+        top: 9px;
+        left: 0px;
+        width:2px;
+        height: 44px;
+        background: #e0e0e0;
+        content:"";
+    }
+    /*프로모션영역*/
+    .promo-list{
+        grid-template-rows: 190px;
+    }
+    .promotion-section .promo-list li{
+        grid-column: span 3;
+        margin-top: 0;
+    }
+
+    /*form영역css*/
+
+    .item1-1{grid-column: span 6;}
+    .item1-2{grid-column: span 6;}
+
+    .formGroup{
+        display:grid;
+        grid-template-columns: repeat(12,1fr);
+    }
+    .mapArea{
+        padding-top: 25px;
+        padding-left: 50px;
+        align-content: center;
+    }
+    #my-address{
+        height: 466px;
+    }
+}

@@ -1,0 +1,94 @@
+
+{
+  "education": [
+    {
+      "term": "2011-2014",
+      "img" : "highSchool.png",
+      "desc": "Heasung High School, Seoul",
+      "detail": "Convention & Business Management ",
+      "score" : "",
+      "sponsor" : ""
+    },
+    {
+      "term": "2014-2018",
+      "img" : "university.png",
+      "desc": "Korea University - Sejong",
+      "detail": "Digital Business & Web Applicaion development",
+      "score" : "3.4/4.5",
+      "sponsor" : ""
+    },
+    {
+      "term": "2018-present",
+      "img" : "likelion.png",
+      "desc": "멋쟁이사자처럼 6기",
+      "detail": "Web service development through online lectures and offline lectures for 6 months",
+      "sponsor" : "Sponsor: Google, AWS, Fuse ",
+      "score" : ""
+    }
+
+  ],
+  "skills": [
+    {
+      "term": "content Writing & Editing",
+      "img" : "writing.png",
+      "desc": "대한상공회의소",
+      "detail": "워드프로세서 1급 취득",
+      "score" : "",
+      "sponsor" : ""
+    },
+    {
+      "term": "HTML & CSS",
+      "img" : "htmlcss.jpg",
+      "desc": "online and offline studying",
+      "detail": "생활코딩, codecademy강의, 학교수업으로 학습",
+      "score" : "",
+      "sponsor" : ""
+    },
+    {
+      "term": "Javascript & Jquery",
+      "img" : "javascript.png",
+      "desc": "online and offline studying",
+      "detail": "생활코딩, 학교수업, 멋쟁이사자처럼 온라인/오프라인수업으로 학습",
+      "sponsor" : "",
+      "score" : ""
+    },
+    {
+      "term": "Python & Ruby",
+      "img" : "python.png",
+      "desc": "online and offline studying",
+      "detail": "codecademy강의, 학교수업, 멋쟁이사자처럼 온라인/오프라인수업으로 학습",
+      "sponsor" : "",
+      "score" : ""
+    }
+  ],
+  "project": [
+    {
+      "term":"Project 1 : Introduce myself",
+      "img": "p1.png",
+      "desc": "using skill : html, css, javascript, json, ajax ",
+      "detail": "",
+      "score" : "",
+      "sponsor" : ""
+    },
+    {
+      "term":"Project 2 : Colored Square game",
+      "img": "coloredsquare.png",
+      "desc": "using skill : html, css, javascript ",
+      "detail": "",
+      "score" : "",
+      "sponsor" : ""
+    },
+    {
+      "term":"Project 3 : SPA using Bootstrap",
+      "img": "bootstrap.png",
+      "desc": "using skill : html, css, javascript, bootstrap ",
+      "detail": "",
+      "score" : "",
+      "sponsor" : ""
+
+    }
+  ]
+
+}
+
+
