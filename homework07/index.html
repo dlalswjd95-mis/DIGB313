@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<meta charset="utf-8" name="viewport" content="initial-scale=1, user-scalable=no">
+		<title>My Google Map</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+		<h1 class="h1">My Google Maps
+			<small class="text-muted">Searching for Cafes</small>
+		</h1>
+		<div class="container-fluid">
+			<div class="row text-center">
+
+				<div id="findCafes" class="h3 col-md-4 col-xs-4">
+					Cafe Nearby :
+				</div>
+
+				<div id="locationField" class="inputGroup col-md-5 col-xs-5">
+					<input id="autocomplete" class="controls" type="text"  placeholder="주소를 입력하세요.">
+				</div>
+
+				<div  class="button-group col-md-3 col-xs-3">
+					<input type="button" id="submit" value= "Find!!" class="btn btn-success">
+				</div>
+
+			</div>
+		</div>
+		<div class="mapArea">
+			<div id="my-address" class="map space-set">
+				<p>Map will not be display without Internet Connection.</p>
+			</div>
+		</div>
+
+
+
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWyGu0QbQDNQSCrwwdf1PVHM6jxwc99DI&libraries=places,geometry&sensor=false&callback=initAutocomplete"
+			async defer></script>
+		<script src="assets/js/script.js"></script>
+	</body>
+	
+</html>

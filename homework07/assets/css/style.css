@@ -1,0 +1,79 @@
+/*<!--기본css-->*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 729px;
+    padding-right: 25px;
+}
+
+
+/*header */
+h1 {
+    text-align: center;
+    margin: 15px;
+}
+
+/*input */
+
+#findCafes{
+    text-align: right;
+}
+
+.row{
+    height: 50px;
+}
+input{
+    width:100%;
+    margin-left: 10px;
+}
+.controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+.inputGroup{
+    margin-top: 15px;
+}
+
+/*button*/
+.button-group{
+    margin-top: 25px ;
+}
+
+
+/* map */
+
+.map {
+    height: 100%;
+}
+.mapArea{
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+#my-address{
+    height: 466px;
+}
+
+
+/*responsive*/
+@media screen and (min-width: 992px){
+    #findCafes{
+        text-align: right;
+    }
+    input{
+        width: 100%;
+    }
+    .button-group{
+        text-align: left;
+    }
+
+
+}
